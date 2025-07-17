@@ -25,3 +25,7 @@
   margin-bottom: 16px;
   font-size: var(--font-size-m);
 }
+
+.testimonials-section .testimonials .feedback {
+  line-height: 25px;
+}
