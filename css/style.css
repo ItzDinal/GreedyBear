@@ -60,14 +60,12 @@ img {
 
 /* Navbar Stylings */
 header {
-<<<<<<< HEAD
     position: fixed;
     width: 100%;
     z-index: 5;
     background: var(--primary-color);
-=======
-  background: var(--primary-color);
->>>>>>> 56dd0d4e7b899bf03d98c6996d962cc94a9ebca7
+    background: var(--primary-color);
+
 }
 
 header .navbar {
@@ -91,7 +89,6 @@ header .navbar {
   transition: 0.3s ease;
 }
 
-<<<<<<< HEAD
 .navbar .nav-menu .nav-link:hover{
     color: var(--white-color);
     background-color: var(--secondary-color);
@@ -182,7 +179,7 @@ header .navbar {
         font-size: var(--font-size-l);
     }
 }
-=======
+
 .navbar .nav-menu .nav-link:hover {
   color: var(--white-color);
   background-color: var(--secondary-color);
@@ -205,4 +202,3 @@ header .navbar {
   border-radius: var(--border-radius-s);
   background: var(--secondary-color);
 }
->>>>>>> 56dd0d4e7b899bf03d98c6996d962cc94a9ebca7
