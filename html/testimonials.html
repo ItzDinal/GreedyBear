@@ -3,7 +3,13 @@
   <head>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/testimonials.css" />
-    <meta charset="UTF-8" />
+    <!--linking font Awesome for icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      <meta
+      charset="UTF-8"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Testimonials</title>
   </head>
@@ -11,10 +17,10 @@
     <!--Testimonials section-->
     <section class="testimonials-section">
       <h2 class="section-title">Testimonials</h2>
-      <div class="section-content">
+      <div class="section-content swiper">
         <div class="slider-container"></div>
-        <ul class="testimonials-list">
-          <li class="testimonials">
+        <ul class="testimonials-list swiper-wrapper">
+          <li class="testimonials swiper-slide">
             <img src="/assest/test1.jpg" alt="User" class="user-image" />
             <h3 class="name">Sarah Johnson</h3>
             <i class="feedback"
@@ -23,7 +29,7 @@
             >
           </li>
 
-          <li class="testimonials">
+          <li class="testimonials swiper-slide">
             <img src="/assest/test2.jpg" alt="User" class="user-image" />
             <h3 class="name">Massio 365</h3>
             <i class="feedback"
@@ -32,7 +38,7 @@
             >
           </li>
 
-          <li class="testimonials">
+          <li class="testimonials swiper-slide">
             <img src="/assest/test3.jpg" alt="User" class="user-image" />
             <h3 class="name">Jini Jess</h3>
             <i class="feedback"
@@ -41,7 +47,7 @@
             >
           </li>
 
-          <li class="testimonials">
+          <li class="testimonials swiper-slide">
             <img src="/assest/test4.jpg" alt="User" class="user-image" />
             <h3 class="name">Vincenzo Cassiano</h3>
             <i class="feedback"
@@ -50,7 +56,7 @@
             >
           </li>
 
-          <li class="testimonials">
+          <li class="testimonials swiper-slide">
             <img src="/assest/test6.jpg" alt="User" class="user-image" />
             <h3 class="name">Song Joong Ki</h3>
             <i class="feedback"
@@ -58,8 +64,16 @@
               again!"</i
             >
           </li>
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </ul>
       </div>
     </section>
+    <!--Linking Swiper Script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Linking custom Script-->
+    <script src="/JS/script.js"></script>
   </body>
 </html>
