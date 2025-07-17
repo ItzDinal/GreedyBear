@@ -37,6 +37,7 @@
 .about-section .social-link-list .social-link {
   color: var(--primary-color);
   font-size: var(--font-size-l);
+  transition: 0.2s ease;
 }
 
 .about-section .social-link-list .social-link:hover {
